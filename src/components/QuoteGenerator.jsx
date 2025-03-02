@@ -33,7 +33,6 @@ function QuoteGenerator() {
   }, []);
 
   const generateQuote = () => {
-    if (quotes.length === 0) return;
 
     const randomId = Math.floor(Math.random() * quotes.length);
     const newQuote = quotes[randomId].quote;
