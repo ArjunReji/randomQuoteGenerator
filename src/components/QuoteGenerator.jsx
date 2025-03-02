@@ -10,7 +10,7 @@ function QuoteGenerator() {
   const [quotes, setQuotes] = useState([]);
   const [quote, setQuote] = useState('Thinking is the capital, Enterprise is the way, Hard Work is the solution.');
   const [author, setAuthor] = useState('Abdul Kalam');
-  const [backgroundImage, setBackgroundImage] = useState('./src/assets/AbdulKalam.jpg')
+  const [backgroundImage, setBackgroundImage] = useState('./AbdulKalam.jpg')
 
   const containerStyle = {
 
@@ -44,63 +44,63 @@ function QuoteGenerator() {
     setAuthor(newAuthor);
 
     if (newAuthor === 'Rumi') {
-      const imagePath = './src/assets/Rumi.jpg';
+      const imagePath = './Rumi.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Abdul Kalam') {
-      const imagePath = './src/assets/AbdulKalam.jpg';
+      const imagePath = './AbdulKalam.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Bill Gates') {
-      const imagePath = './src/assets/BillGates.jpg';
+      const imagePath = './BillGates.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Abu Bakr (R.A)') {
-      const imagePath = './src/assets/AbuBakr.jpg';
+      const imagePath = './AbuBakr.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Albert Einstein') {
-      const imagePath = './src/assets/AlbertEinstein.jpg';
+      const imagePath = './AlbertEinstein.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Abraham Lincoln') {
-      const imagePath = './src/assets/AbrahamLincoln.jpg';
+      const imagePath = './AbrahamLincoln.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Oprah Winfrey') {
-      const imagePath = './src/assets/OprahWinfrey.jpg';
+      const imagePath = './OprahWinfrey.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Muhammad Ali') {
-      const imagePath = './src/assets/MuhammadAli.jpg';
+      const imagePath = './MuhammadAli.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'William Shakespeare') {
-      const imagePath = './src/assets/WilliamShakespeare.jpg';
+      const imagePath = './WilliamShakespeare.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Mother Teresa') {
-      const imagePath = './src/assets/MotherTeresa.jpg';
+      const imagePath = './MotherTeresa.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Nelson Mandela') {
-      const imagePath = './src/assets/NelsonMandela.jpg';
+      const imagePath = './NelsonMandela.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Umar ibn Al-Khattāb (R.A)') {
-      const imagePath = './src/assets/UmaribnAlKhattab.jpg';
+      const imagePath = './UmaribnAlKhattab.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Walt Disney') {
-      const imagePath = './src/assets/WaltDisney.jpg';
+      const imagePath = './WaltDisney.jpg';
       setBackgroundImage(imagePath);
     }
     else if (newAuthor === 'Aristotle') {
-      const imagePath = './src/assets/Aristotle.jpg';
+      const imagePath = './Aristotle.jpg';
       setBackgroundImage(imagePath);
     }
     else {
-      const imagePath = './src/assets/AliibnAbiTalib.jpg';
+      const imagePath = './AliibnAbiTalib.jpg';
       setBackgroundImage(imagePath);
     }
 
