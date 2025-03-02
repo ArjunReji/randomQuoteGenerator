@@ -38,7 +38,6 @@ function QuoteGenerator() {
     const newQuote = quotes[randomId].quote;
     const newAuthor = quotes[randomId].author;
 
-    // Update state with new quote and author
     setQuote(newQuote);
     setAuthor(newAuthor);
 
