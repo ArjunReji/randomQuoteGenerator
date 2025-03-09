@@ -21,12 +21,10 @@ function QuoteGenerator() {
       .then((response) => {
         const allQuotes = response.data.quotes;
         setQuotes(allQuotes);
-        // Call generateQuote only after quotes are set
         if (allQuotes.length > 0) {
           const randomId = Math.floor(Math.random() * allQuotes.length);
           setQuote(allQuotes[randomId].quote);
           setAuthor(allQuotes[randomId].author);
-          // Trigger background image logic directly here
           updateBackground(allQuotes[randomId].author);
         }
       })
@@ -47,7 +45,6 @@ function QuoteGenerator() {
     }
   };
 
-  // Helper function to handle background image logic (unchanged from your original)
   const updateBackground = (newAuthor) => {
     if (newAuthor === 'Rumi') {
       const imagePath = './Rumi.jpg';
